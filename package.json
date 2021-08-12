@@ -1,11 +1,13 @@
 {
   "name": "v-simple-timeago",
   "version": "0.1.0",
-  "private": true,
+  "author": "Jonathan Arias (jonalxh)",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "generate-wc": "npm run build -- --target wc --name v-simple-timeago src/App.vue"
   },
   "dependencies": {
     "core-js": "^3.6.5",
