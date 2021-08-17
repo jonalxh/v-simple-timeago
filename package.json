@@ -1,7 +1,8 @@
 {
   "name": "v-simple-timeago",
-  "version": "0.1.0",
-  "author": "Jonathan Arias (jonalxh)",
+  "version": "0.1.1",
+  "author": "Jonathan Arias (@jonalxh)",
+  "keywords": ["timeago", "vue-timeago", "timestamp to date"],
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",

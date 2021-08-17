@@ -28,12 +28,12 @@ export default {
 
 Use it in your template.
 ```
-<VSimpleTimeago :date="now"></VSimpleTimeago>
+<VSimpleTimeago :date="now"></VSimpleTimeago> <!-- 0 seconds ago -->
 
-<VSimpleTimeago :date="yesterday"></VSimpleTimeago>
+<VSimpleTimeago :date="yesterday"></VSimpleTimeago> <!-- 1 day ago -->
 ```
 
-##Props 
+## Props 
 
 | Prop   |      Default      |  Definition |
 |----------|:-------------:|------:|
